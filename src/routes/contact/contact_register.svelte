@@ -19,7 +19,7 @@
 
 			<label for="employee_id" class="pl-1 text-gray-500">氏名</label>
 
-			<input type="text" value="春 太郎" class="input input-info input-bordered w-full" />
+			<input type="text" value="春 太郎" class="input input-warning input-bordered w-full" />
 
 			<input type="hidden" name="EMPLOYEE_ID" value="employee_id" />
 
