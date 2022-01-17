@@ -23,7 +23,7 @@
 				type="text"
 				name="EMPLOYEE_NAME"
 				value=""
-				class="input input-warning input-bordered w-full"
+				class="input input-info input-bordered w-full"
 			/>
 
 			<label for="employee_name_sub" class="pl-1 text-gray-500">従業員氏名（カナ）</label>
@@ -32,7 +32,7 @@
 				type="text"
 				name="EMPLOYEE_NAME_SUB"
 				value=""
-				class="input input-warning input-bordered w-full"
+				class="input input-info input-bordered w-full"
 			/>
 
 			<label for="birthday_year" class="pl-1 text-gray-500">生年月日</label>
@@ -42,7 +42,7 @@
 					type="number"
 					name="BIRTHDAY_YEAR"
 					value=""
-					class="input input-warning input-bordered w-full"
+					class="input input-info input-bordered w-full"
 				/>
 				<label for="birthday_year" class="px-2 text-gray-500">年</label>
 
@@ -51,7 +51,7 @@
 					type="number"
 					name="BIRTHDAY_MONTH"
 					value=""
-					class="input input-warning input-bordered w-full"
+					class="input input-info input-bordered w-full"
 				/>
 				<label for="birthday_month" class="px-2 text-gray-500">月</label>
 
@@ -60,7 +60,7 @@
 					type="number"
 					name="BIRTHDAY_DAY"
 					value=""
-					class="input input-warning input-bordered w-full"
+					class="input input-info input-bordered w-full"
 				/>
 				<label for="birthday_day" class="px-2 text-gray-500">日</label>
 			</div>
@@ -69,7 +69,7 @@
 			<select
 				id="employee_gender"
 				name="EMPLOYEE_GENDER"
-				class="select select-warning select-bordered w-full"
+				class="select select-info select-bordered w-full"
 			>
 				<option selected disabled>性別を選択してください</option>
 				<option value="1">男</option>
@@ -83,7 +83,7 @@
 				type="number"
 				name="EMPLOYEE_ZIPCODE"
 				value=""
-				class="input input-warning input-bordered w-full"
+				class="input input-info input-bordered w-full"
 			/>
 
 			<label for="employee_address" class="pl-1 text-gray-500">住所</label>
@@ -92,7 +92,7 @@
 				type="text"
 				name="EMPLOYEE_ADDRESS"
 				value=""
-				class="input input-warning input-bordered w-full"
+				class="input input-info input-bordered w-full"
 			/>
 
 			<label for="employee_phone" class="pl-1 text-gray-500">電話番号</label>
@@ -101,7 +101,7 @@
 				type="text"
 				name="EMPLOYEE_PHONE"
 				value=""
-				class="input input-warning input-bordered w-full"
+				class="input input-info input-bordered w-full"
 			/>
 
 			<label for="employee_email" class="pl-1 text-gray-500">メールアドレス</label>
@@ -110,7 +110,7 @@
 				type="email"
 				name="EMPLOYEE_EMAIL"
 				value=""
-				class="input input-warning input-bordered w-full"
+				class="input input-info input-bordered w-full"
 			/>
 
 			<label for="employee_password" class="pl-1 text-gray-500">パスワード</label>
@@ -119,14 +119,14 @@
 				type="password"
 				name="EMPLOYEE_PASSWORD"
 				value=""
-				class="input input-warning input-bordered w-full"
+				class="input input-info input-bordered w-full"
 			/>
 
 			<label for="employee_type" class="pl-1 text-gray-500">従業員タイプ</label>
 			<select
 				id="employee_type"
 				name="EMPLOYEE_TYPE"
-				class="select select-warning select-bordered w-full"
+				class="select select-info select-bordered w-full"
 			>
 				<option selected disabled>従業員タイプを選択してください</option>
 				<option value="1">店長</option>
@@ -141,7 +141,7 @@
 					type="number"
 					name="COMPANY_JOIN_YEAR"
 					value=""
-					class="input input-warning input-bordered w-full"
+					class="input input-info input-bordered w-full"
 				/>
 				<label for="company_join_yaer" class="px-2 text-gray-500">年</label>
 
@@ -150,7 +150,7 @@
 					type="number"
 					name="COMPANY_JOIN_MONTH"
 					value=""
-					class="input input-warning input-bordered w-full"
+					class="input input-info input-bordered w-full"
 				/>
 				<label for="company_join_month" class="px-2 text-gray-500">月</label>
 
@@ -159,7 +159,7 @@
 					type="number"
 					name="COMPANY_JOIN_DAY"
 					value=""
-					class="input input-warning input-bordered w-full"
+					class="input input-info input-bordered w-full"
 				/>
 				<label for="company_join_day" class="px-2 text-gray-500">日</label>
 			</div>

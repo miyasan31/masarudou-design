@@ -18,7 +18,7 @@
 			</h1>
 
 			<label for="employee_id" class="pl-1 text-gray-500">従業員氏名</label>
-			<input type="text" value="" class="input input-warning input-bordered w-full" />
+			<input type="text" value="" class="input input-info input-bordered w-full" />
 
 			<input type="hidden" name="EMPLOYEE_ID" value="" />
 
@@ -28,7 +28,7 @@
 				type="date"
 				name="SHIFT_JOIN_YMD"
 				value=""
-				class="input input-warning input-bordered w-full"
+				class="input input-info input-bordered w-full"
 			/>
 
 			<label for="shift_join_hour" class="pl-1 text-gray-500">出勤予定時刻</label>
@@ -38,7 +38,7 @@
 					type="number"
 					name="SHIFT_JOIN_HOUR"
 					value=""
-					class="input input-warning input-bordered w-full"
+					class="input input-info input-bordered w-full"
 				/>
 				<label for="shift_join_hour" class="px-2 text-gray-500">時</label>
 
@@ -47,7 +47,7 @@
 					type="number"
 					name="SHIFT_JOIN_MINUTE"
 					value=""
-					class="input input-warning input-bordered w-full"
+					class="input input-info input-bordered w-full"
 				/>
 				<label for="shift_join_minute" class="px-2 text-gray-500">分</label>
 			</div>
@@ -59,7 +59,7 @@
 					type="number"
 					name="SHIFT_LEAVING_HOUR"
 					value=""
-					class="input input-warning input-bordered w-full"
+					class="input input-info input-bordered w-full"
 				/>
 				<label for="shift_leaving_hour" class="px-2 text-gray-500">時</label>
 
@@ -68,7 +68,7 @@
 					type="number"
 					name="SHIFT_LEAVING_MINUTE"
 					value=""
-					class="input input-warning input-bordered w-full"
+					class="input input-info input-bordered w-full"
 				/>
 				<label for="shift_leaving_minute" class="px-2 text-gray-500">分</label>
 			</div>
