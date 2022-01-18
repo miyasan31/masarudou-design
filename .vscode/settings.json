@@ -1,24 +1,21 @@
 {
-	"css.validate": false,
-	"editor.codeActionsOnSave": ["source.fixAll.eslint"],
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"editor.formatOnSave": true,
-	"editor.quickSuggestions": { "strings": true },
-	"files.encoding": "utf8",
-	"files.eol": "\n",
-	"typescript.preferences.importModuleSpecifier": "non-relative",
-	"typescript.tsdk": "node_modules/typescript/lib",
-	"prettier.printWidth": 100,
-	"explorer.sortOrderLexicographicOptions": "unicode",
-	"explorer.sortOrder": "type",
-	"eslint.validate": [
-		"json",
-		"javascript",
-		"javascriptreact",
-		"typescript",
-		"typescriptreact",
-		"svelte"
-	],
+  "css.validate": false,
+  "editor.quickSuggestions": { "strings": true },
+  "files.encoding": "utf8",
+  "files.eol": "\n",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.tsdk": "node_modules/typescript/lib",
+
+  "explorer.sortOrderLexicographicOptions": "unicode",
+  "explorer.sortOrder": "type",
+
+  "prettier.printWidth": 100,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -28,5 +25,5 @@
   "[svelte]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-	"workbench.colorTheme": "GitHub Dark Dimmed"
+  "workbench.colorTheme": "GitHub Dark Dimmed"
 }
