@@ -66,11 +66,7 @@ import Layout from '$components/layout/diligence/Layout.svelte';
       </div>
 
       <label for="employee_gender" class="pl-1 text-gray-500">性別</label>
-      <select
-        id="employee_gender"
-        name="EMPLOYEE_GENDER"
-        class="select select-info select-bordered w-full"
-      >
+      <select id="employee_gender" name="EMPLOYEE_GENDER" class="select select-info select-bordered w-full">
         <option selected disabled>性別を選択してください</option>
         <option value="1">男</option>
         <option value="2">女</option>
@@ -123,11 +119,7 @@ import Layout from '$components/layout/diligence/Layout.svelte';
       />
 
       <label for="employee_type" class="pl-1 text-gray-500">従業員タイプ</label>
-      <select
-        id="employee_type"
-        name="EMPLOYEE_TYPE"
-        class="select select-info select-bordered w-full"
-      >
+      <select id="employee_type" name="EMPLOYEE_TYPE" class="select select-info select-bordered w-full">
         <option selected disabled>従業員タイプを選択してください</option>
         <option value="1">店長</option>
         <option value="2">正社員</option>
