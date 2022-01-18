@@ -1,28 +1,28 @@
 <script lang="ts">
-	import Layout from '$components/layout/diligence/Layout.svelte';
+import Layout from '$components/layout/diligence/Layout.svelte';
 </script>
 
 <Layout>
-	<main class="flex flex-1 flex-col items-center overflow-scroll">
-		<div class="flex flex-col gap-2 w-2/3 max-w-sm">
-			<h1
-				class="
+  <main class="flex flex-1 flex-col items-center overflow-scroll">
+    <div class="flex flex-col gap-2 w-2/3 max-w-sm">
+      <h1
+        class="
 					pt-8
 					text-center text-2xl
 					md:text-3xl
 					font-medium
 					text-gray-800
 				"
-			>
-				出勤登録
-			</h1>
+      >
+        出勤登録
+      </h1>
 
-			<label for="employee_id" class="pl-1 text-gray-500">従業員氏名</label>
+      <label for="employee_id" class="pl-1 text-gray-500">従業員氏名</label>
 
-			<input type="text" value="春 太郎" class="input input-info input-bordered w-full" />
+      <input type="text" value="春 太郎" class="input input-info input-bordered w-full" />
 
-			<button
-				class="
+      <button
+        class="
 					w-full
 					mx-auto
 					text-white
@@ -36,9 +36,9 @@
 					text-lg
 					rounded-full
 				"
-			>
-				出勤
-			</button>
-		</div>
-	</main>
+      >
+        出勤
+      </button>
+    </div>
+  </main>
 </Layout>
