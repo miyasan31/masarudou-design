@@ -1,5 +1,7 @@
 {
   "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
   "editor.quickSuggestions": { "strings": true },
   "files.encoding": "utf8",
   "files.eol": "\n",
@@ -9,10 +11,10 @@
   "explorer.sortOrderLexicographicOptions": "unicode",
   "explorer.sortOrder": "type",
 
-  "prettier.printWidth": 100,
-  "editor.formatOnSave": true,
+  "prettier.printWidth": 120,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": true,
+    "source.fixAll.prettier": true
   },
 
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -25,5 +27,6 @@
   "[svelte]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "GitHub Dark Dimmed"
+  "workbench.colorTheme": "GitHub Dark",
+  "editor.formatOnSave": true
 }
