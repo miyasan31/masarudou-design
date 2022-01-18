@@ -1,5 +1,25 @@
 {
-	"editor.formatOnSave": true,
+	"[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+	"css.validate": false,
+	"editor.codeActionsOnSave": ["source.fixAll.eslint"],
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"editor.quickSuggestions": { "strings": true },
+	"files.encoding": "utf8",
+	"files.eol": "\n",
+	"typescript.preferences.importModuleSpecifier": "non-relative",
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"prettier.printWidth": 100,
+	"explorer.sortOrderLexicographicOptions": "unicode",
+	"explorer.sortOrder": "type",
+
+	"eslint.validate": [
+		"json",
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact",
+		"svelte"
+	],
 	"workbench.colorTheme": "GitHub Dark Dimmed"
 }
