@@ -1,5 +1,5 @@
 <script lang="ts">
-import Layout from '$components/layout/contact/Layout.svelte';
+import Layout from '$components/layout/stock/Layout.svelte';
 </script>
 
 <Layout>
@@ -8,19 +8,22 @@ import Layout from '$components/layout/contact/Layout.svelte';
       <table class="table w-full">
         <thead>
           <tr>
-            <th>予約番号</th>
-            <th>予約人数</th>
-            <th>予約日時</th>
+            <th>商品名</th>
+            <th>商品名在庫数</th>
+            <th>入荷日</th>
+            <th>入荷予定日</th>
             <th></th>
           </tr>
         </thead>
+
         <tbody>
           <tr>
-            <th>12</th>
-            <th>2</th>
+            <th>食品A</th>
+            <th>100</th>
             <td>2021/12/01 10:00</td>
+            <td>2021/12/01 15:00</td>
             <td class="text-center w-24">
-              <form action="/SD/servlet/shift_edit" method="POST">
+              <form action="/stock/stock_edit" method="POST">
                 <input type="hidden" name="SHIFT_ID" value="" />
                 <button
                   class="
@@ -32,19 +35,19 @@ import Layout from '$components/layout/contact/Layout.svelte';
                     focus:outline-none
                     hover:bg-gray-400
                     rounded-full
-                  "
-                >
-                  詳細
+                  ">
+                  編集
                 </button>
               </form>
             </td>
           </tr>
           <tr>
-            <th>13</th>
-            <th>5</th>
+            <th>食品B</th>
+            <th>100</th>
             <td>2021/12/01 10:00</td>
+            <td>2021/12/01 15:00</td>
             <td class="text-center w-24">
-              <form action="/SD/servlet/shift_edit" method="POST">
+              <form action="/stock/stock_edit" method="POST">
                 <input type="hidden" name="SHIFT_ID" value="" />
                 <button
                   class="
@@ -56,18 +59,11 @@ import Layout from '$components/layout/contact/Layout.svelte';
                     focus:outline-none
                     hover:bg-gray-400
                     rounded-full
-                  "
-                >
-                  詳細
+                  ">
+                  編集
                 </button>
               </form>
             </td>
-          </tr>
-          <tr>
-            <th>14</th>
-            <th>3</th>
-            <td>2021/12/01 10:00</td>
-            <td class="text-center w-24"></td>
           </tr>
         </tbody>
       </table>

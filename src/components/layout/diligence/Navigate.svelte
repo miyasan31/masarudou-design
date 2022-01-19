@@ -14,8 +14,6 @@
 
     <hr class="text-gray-300" />
 
-    <a href="/navigate" class="py-2 px-6 hover:bg-blue-100 font-bold rounded-full"> アプリ選択 </a>
-
     <a href="/" class="py-2 px-6 hover:bg-blue-100 font-bold rounded-full"> サインアウト </a>
   </div>
 </nav>

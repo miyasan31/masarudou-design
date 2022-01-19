@@ -1,40 +1,106 @@
-<form action="./navigate">
-  <div
-    class="flex flex-col
-          justify-center
-          items-center
-          w-full
-          h-screen
-          bg-gray-100
-        "
-  >
-    <div class="flex flex-col w-96 mx-auto gap-2">
-      <h1 class="text-center text-2xl md:text-3xl font-medium text-gray-800">サインイン</h1>
+<div
+  class="
+					flex flex-col
+					justify-center
+					items-center
+					w-full
+					h-screen
+					bg-gray-100
+				">
+  <div class="flex flex-col mx-auto gap-2">
+    <h1
+      class="
+							text-center text-2xl
+							mb-10
+							md:text-3xl
+							font-medium
+							text-gray-800
+						">
+      アプリを選択する
+    </h1>
 
-      <label for="email" class="pl-2 text-gray-500">メールアドレス</label>
-      <input type="text" id="email" name="EMPLOYEE_EMAIL" class="input input-info input-bordered w-full" />
+    <div class="flex gap-2">
+      <a href="/diligence/signin">
+        <div
+          class="
+									py-10
+									w-28
+									text-blue-400
+									bg-white
+									text-lg text-center
+									leading-none
+									rounded-xl
+									drop-shadow-md
+									hover:drop-shadow-xl
+								">
+          勤怠
+        </div>
+      </a>
 
-      <label for="password" class="pl-2 text-gray-500">パスワード</label>
-      <input type="password" id="password" name="EMPLOYEE_PASSWORD" class="input input-info input-bordered w-full" />
+      <a href="/reservation/reservation_list">
+        <div
+          class="
+									py-10
+									w-28
+									text-blue-400
+									bg-white
+									text-lg text-center
+									leading-none
+									rounded-xl
+									drop-shadow-md
+									hover:drop-shadow-xl
+								">
+          予約
+        </div>
+      </a>
 
-      <button
-        class="
-              w-full
-              mx-auto
-              text-white
-              bg-blue-400
-              border-0
-              py-3
-              px-8
-              mt-4
-              focus:outline-none
-              hover:bg-blue-500
-              text-lg
-              rounded-full
-            "
-      >
-        サインイン
-      </button>
+      <a href="/stock/stock_list">
+        <div
+          class="
+									py-10
+									w-28
+									text-blue-400
+									bg-white
+									text-lg text-center
+									leading-none
+									rounded-xl
+									drop-shadow-md
+									hover:drop-shadow-xl
+								">
+          在庫
+        </div></a>
+
+      <a href="/order/menu_list">
+        <div
+          class="
+									py-10
+									w-28
+									text-blue-400
+									bg-white
+									text-lg text-center
+									leading-none
+									rounded-xl
+									drop-shadow-md
+									hover:drop-shadow-xl
+								">
+          注文
+        </div></a>
+
+      <a href="/accounting/room_select">
+        <div
+          class="
+									py-10
+									w-28
+									text-blue-400
+									bg-white
+									text-lg text-center
+									leading-none
+									rounded-xl
+									drop-shadow-md
+									hover:drop-shadow-xl
+								">
+          会計
+        </div></a>
     </div>
   </div>
-</form>
+</div>
