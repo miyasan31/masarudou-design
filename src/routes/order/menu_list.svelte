@@ -10,7 +10,7 @@ import Layout from '$components/layout/order/Layout.svelte';
         <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
           <img
             alt="team"
-            class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded mr-4"
             src="https://dummyimage.com/80x80" />
           <div class="flex-grow">
             <h2 class="text-gray-900 title-font font-medium">ご飯</h2>
@@ -22,7 +22,7 @@ import Layout from '$components/layout/order/Layout.svelte';
         <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
           <img
             alt="team"
-            class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded mr-4"
             src="https://dummyimage.com/84x84" />
           <div class="flex-grow">
             <h2 class="text-gray-900 title-font font-medium">焼肉</h2>
@@ -34,7 +34,7 @@ import Layout from '$components/layout/order/Layout.svelte';
         <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
           <img
             alt="team"
-            class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded mr-4"
             src="https://dummyimage.com/88x88" />
           <div class="flex-grow">
             <h2 class="text-gray-900 title-font font-medium">天ぷら</h2>
@@ -46,7 +46,7 @@ import Layout from '$components/layout/order/Layout.svelte';
         <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
           <img
             alt="team"
-            class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded mr-4"
             src="https://dummyimage.com/90x90" />
           <div class="flex-grow">
             <h2 class="text-gray-900 title-font font-medium">餃子</h2>
@@ -58,7 +58,7 @@ import Layout from '$components/layout/order/Layout.svelte';
         <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
           <img
             alt="team"
-            class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded mr-4"
             src="https://dummyimage.com/94x94" />
           <div class="flex-grow">
             <h2 class="text-gray-900 title-font font-medium">ラーメン</h2>
@@ -70,7 +70,7 @@ import Layout from '$components/layout/order/Layout.svelte';
         <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
           <img
             alt="team"
-            class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded mr-4"
             src="https://dummyimage.com/98x98" />
           <div class="flex-grow">
             <h2 class="text-gray-900 title-font font-medium">かまぼこ</h2>
@@ -82,7 +82,7 @@ import Layout from '$components/layout/order/Layout.svelte';
         <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
           <img
             alt="team"
-            class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded mr-4"
             src="https://dummyimage.com/100x90" />
           <div class="flex-grow">
             <h2 class="text-gray-900 title-font font-medium">なんちゃらパスタ</h2>
@@ -94,7 +94,7 @@ import Layout from '$components/layout/order/Layout.svelte';
         <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
           <img
             alt="team"
-            class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded mr-4"
             src="https://dummyimage.com/104x94" />
           <div class="flex-grow">
             <h2 class="text-gray-900 title-font font-medium">ポテト</h2>
@@ -106,7 +106,7 @@ import Layout from '$components/layout/order/Layout.svelte';
         <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
           <img
             alt="team"
-            class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded mr-4"
             src="https://dummyimage.com/108x98" />
           <div class="flex-grow">
             <h2 class="text-gray-900 title-font font-medium">まさる堂気まぐれメニュー</h2>
@@ -122,7 +122,7 @@ import Layout from '$components/layout/order/Layout.svelte';
         <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
           <img
             alt="team"
-            class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded mr-4"
             src="https://dummyimage.com/80x80" />
           <div class="flex-grow">
             <h2 class="text-gray-900 title-font font-medium">コーラ</h2>
@@ -134,7 +134,7 @@ import Layout from '$components/layout/order/Layout.svelte';
         <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
           <img
             alt="team"
-            class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded mr-4"
             src="https://dummyimage.com/84x84" />
           <div class="flex-grow">
             <h2 class="text-gray-900 title-font font-medium">ビール</h2>
@@ -146,7 +146,7 @@ import Layout from '$components/layout/order/Layout.svelte';
         <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
           <img
             alt="team"
-            class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded mr-4"
             src="https://dummyimage.com/88x88" />
           <div class="flex-grow">
             <h2 class="text-gray-900 title-font font-medium">焼酎</h2>
@@ -158,7 +158,7 @@ import Layout from '$components/layout/order/Layout.svelte';
         <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
           <img
             alt="team"
-            class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded mr-4"
             src="https://dummyimage.com/90x90" />
           <div class="flex-grow">
             <h2 class="text-gray-900 title-font font-medium">カクテル</h2>
@@ -170,7 +170,7 @@ import Layout from '$components/layout/order/Layout.svelte';
         <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
           <img
             alt="team"
-            class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded mr-4"
             src="https://dummyimage.com/94x94" />
           <div class="flex-grow">
             <h2 class="text-gray-900 title-font font-medium">梅酒</h2>
@@ -182,7 +182,7 @@ import Layout from '$components/layout/order/Layout.svelte';
         <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
           <img
             alt="team"
-            class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded mr-4"
             src="https://dummyimage.com/98x98" />
           <div class="flex-grow">
             <h2 class="text-gray-900 title-font font-medium">カルピス</h2>
