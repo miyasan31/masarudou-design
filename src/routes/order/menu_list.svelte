@@ -196,14 +196,24 @@ import Layout from '$components/layout/order/Layout.svelte';
   <div class="flex flex-col p-4 w-1/4 bg-white h-screen border-l border-l-gray-200">
     <div>
       <ul>
-        <li class="p-2 font-bold border-b border-gray-200">ラーメン</li>
-        <li class="p-2 font-bold border-b border-gray-200">ラーメン</li>
-        <li class="p-2 font-bold border-b border-gray-200">ラーメン</li>
-        <li class="p-2 font-bold border-b border-gray-200">ラーメン</li>
-        <li class="p-2 font-bold border-b border-gray-200">ラーメン</li>
+        <li class="flex items-center justify-between p-2 font-bold border-b border-gray-200">
+          <div>ラーメン</div>
+          <div>300円</div>
+        </li>
+
+        <li class="flex items-center justify-between p-2 font-bold border-b border-gray-200">
+          <div>焼肉</div>
+          <div>300円</div>
+        </li>
+
+        <li class="flex items-center justify-between p-2 font-bold border-b border-gray-200">
+          <div>焼酎</div>
+          <div>300円</div>
+        </li>
       </ul>
     </div>
     <div class="flex-grow"></div>
+    <div class="font-bold text-xl py-4">合計金額: 900円</div>
     <a href="/order/order_done" class="btn btn-info">注文する</a>
   </div>
 </div>
