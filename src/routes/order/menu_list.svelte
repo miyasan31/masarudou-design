@@ -193,7 +193,7 @@ import Layout from '$components/layout/order/Layout.svelte';
     </div>
   </div>
 
-  <div class="flex flex-col p-4 w-1/4 bg-white h-screen border-l border-l-gray-200">
+  <div class="flex flex-col p-4 w-[400px] bg-white h-screen border-l border-l-gray-200">
     <div>
       <ul>
         <li class="flex items-center justify-between p-2 font-bold border-b border-gray-200">
