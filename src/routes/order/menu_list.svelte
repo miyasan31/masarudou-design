@@ -114,6 +114,42 @@ import Layout from '$components/layout/order/Layout.svelte';
           </div>
         </div>
       </div>
+      <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+        <div class="flex items-center h-full p-4 border border-gray-200 rounded-lg">
+          <img
+            alt="team"
+            class="flex-shrink-0 object-cover object-center w-20 h-20 mr-4 bg-gray-100 rounded"
+            src="https://dummyimage.com/108x98" />
+          <div class="flex-grow">
+            <h2 class="font-medium text-gray-900 title-font">まさる堂気まぐれメニュー</h2>
+            <p class="text-gray-500">300円</p>
+          </div>
+        </div>
+      </div>
+      <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+        <div class="flex items-center h-full p-4 border border-gray-200 rounded-lg">
+          <img
+            alt="team"
+            class="flex-shrink-0 object-cover object-center w-20 h-20 mr-4 bg-gray-100 rounded"
+            src="https://dummyimage.com/108x98" />
+          <div class="flex-grow">
+            <h2 class="font-medium text-gray-900 title-font">まさる堂気まぐれメニュー</h2>
+            <p class="text-gray-500">300円</p>
+          </div>
+        </div>
+      </div>
+      <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+        <div class="flex items-center h-full p-4 border border-gray-200 rounded-lg">
+          <img
+            alt="team"
+            class="flex-shrink-0 object-cover object-center w-20 h-20 mr-4 bg-gray-100 rounded"
+            src="https://dummyimage.com/108x98" />
+          <div class="flex-grow">
+            <h2 class="font-medium text-gray-900 title-font">まさる堂気まぐれメニュー</h2>
+            <p class="text-gray-500">300円</p>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- ----------------------------------------------------------------------- -->
     <h1 class="py-4 text-lg font-bold">ドリンクメニュー</h1>
@@ -186,6 +222,54 @@ import Layout from '$components/layout/order/Layout.svelte';
             src="https://dummyimage.com/98x98" />
           <div class="flex-grow">
             <h2 class="font-medium text-gray-900 title-font">カルピス</h2>
+            <p class="text-gray-500">300円</p>
+          </div>
+        </div>
+      </div>
+      <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+        <div class="flex items-center h-full p-4 border border-gray-200 rounded-lg">
+          <img
+            alt="team"
+            class="flex-shrink-0 object-cover object-center w-20 h-20 mr-4 bg-gray-100 rounded"
+            src="https://dummyimage.com/98x98" />
+          <div class="flex-grow">
+            <h2 class="font-medium text-gray-900 title-font">まさる堂気まぐれドリンク</h2>
+            <p class="text-gray-500">300円</p>
+          </div>
+        </div>
+      </div>
+      <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+        <div class="flex items-center h-full p-4 border border-gray-200 rounded-lg">
+          <img
+            alt="team"
+            class="flex-shrink-0 object-cover object-center w-20 h-20 mr-4 bg-gray-100 rounded"
+            src="https://dummyimage.com/98x98" />
+          <div class="flex-grow">
+            <h2 class="font-medium text-gray-900 title-font">まさる堂気まぐれドリンク</h2>
+            <p class="text-gray-500">300円</p>
+          </div>
+        </div>
+      </div>
+      <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+        <div class="flex items-center h-full p-4 border border-gray-200 rounded-lg">
+          <img
+            alt="team"
+            class="flex-shrink-0 object-cover object-center w-20 h-20 mr-4 bg-gray-100 rounded"
+            src="https://dummyimage.com/98x98" />
+          <div class="flex-grow">
+            <h2 class="font-medium text-gray-900 title-font">まさる堂気まぐれドリンク</h2>
+            <p class="text-gray-500">300円</p>
+          </div>
+        </div>
+      </div>
+      <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+        <div class="flex items-center h-full p-4 border border-gray-200 rounded-lg">
+          <img
+            alt="team"
+            class="flex-shrink-0 object-cover object-center w-20 h-20 mr-4 bg-gray-100 rounded"
+            src="https://dummyimage.com/98x98" />
+          <div class="flex-grow">
+            <h2 class="font-medium text-gray-900 title-font">まさる堂気まぐれドリンク</h2>
             <p class="text-gray-500">300円</p>
           </div>
         </div>
